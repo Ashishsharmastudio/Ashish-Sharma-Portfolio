@@ -24,8 +24,8 @@ const Home = () => {
             animate="show"
             exit='hidden'
             className="h1 mt-[4rem]">
-            Hello I&apos;m, Harshal Patil <br />
-            <span className="text-accent">Web Developer</span>
+            Hello I&apos;m, Ashish Sharma <br />
+            <span className="text-accent">Full Stack Developer</span>
           </motion.h1>
           <motion.p
             variants={fadeIn('down', 0.3)}
@@ -33,7 +33,7 @@ const Home = () => {
             animate="show"
             exit='hidden'
             className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-5 xl:mb-16">
-            Graduate of computer science with experience working across the Web Developer. Looking for a role where I can grow and learn from experienced team members while drawing on project experience I have already successfully executed
+             Bachelor of Technology (B.Tech.) in computer science with experience working across Full Stack Developer. Looking for a role where I can grow and learn from experienced team members while drawing on project experience I have already successfully executed
           </motion.p>
 
           <div className="flex justify-center xl:hidden relative">
@@ -69,7 +69,7 @@ const Home = () => {
           className="w-full h-full max-w-[537px] max-h-[548px] absolute -bottom-32 lg:bottom-5 lg:right-[5%] ">
           <Avatar />
           <div className=' w-full m-10 px-[30px]'>
-         Email:  patilharshal0151@gmail.com
+         Email:  ashishsharmastudio@gmail.com
           </div>
           <div className='w-full m-10 px-[100px]'>
           <Socials />

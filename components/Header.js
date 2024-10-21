@@ -1,6 +1,7 @@
 //next image
 
 import Image from "next/image";
+import Logo from '../public/logo.png'
 
 //nextlink 
 import Link from "next/link";
@@ -14,7 +15,8 @@ const Header = () => {
       <div className="flex flex-col lg:flex-row justify-between items-center gap-y-6 py-8">
         {/* logo  */}
         <Link href={'/'}>
-        <Image src={'/logoha.png'} width={130} height={40} alt="" priority={true}/>
+        <Image src={Logo} width={200} height={100} alt="" priority={true}/>
+        {/* <h1>Ashish Sharma</h1> */}
         </Link>
         {/* socials  */}
         <Socials/>
