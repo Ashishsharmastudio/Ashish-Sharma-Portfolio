@@ -11,24 +11,24 @@ const workSlides = {
         },
 
         {
-          title: "Tours APP",
+          title: "Multi-Auther-Blog In React",
           path: "/multi-auth.png",
-          githubLink: "https://github.com/harshal0151/Tours_system",
-          liveLink: "https://tours-system-h.vercel.app/home",
+          githubLink: "https://github.com/Ashishsharmastudio/AshishSharmaBlogs",
+          liveLink: "https://multi-auth-blog.netlify.app/",
         },
         {
-          title: "Home Decor",
+          title: "Blog Website In Next.js",
           path: "/e-com.png",
-          githubLink: "https://github.com/harshal0151/E-commerce-React-",
-          liveLink: "https://e-commerce-react-bay.vercel.app/",
+          githubLink: "https://github.com/Ashishsharmastudio/AshishSharmaBlog",
+          liveLink: "https://www.ashishsharmablog.tech/",
         },
         {
-          title: "LinkedIn Voice Navigator",
+          title: "E-Learning Platform In React",
           path: "/Thumbnail_Extensions.png",
           githubLink:
-            "https://github.com/harshal0151/LinkedIn-Voice-Navigator-and-Quick-Access-to-Saved-Posts-Extension",
+            "https://github.com/Ashishsharmastudio/Thinking-Grey-E-Learning-platform",
           liveLink:
-            "https://www.linkedin.com/posts/harshal-patil-187a87245_javascript-webdevelopment-frontenddevelopment-activity-7196932421496254466-TNUi?utm_source=share&utm_medium=member_desktop",
+            "https://thinking-grey-e-learning-platform.vercel.app/login",
         },
       ],
     },
@@ -37,49 +37,21 @@ const workSlides = {
         {
           title: "Movie App",
           path: "/movie.png",
-          githubLink: "https://github.com/harshal0151/Movie_ReactApp",
-          liveLink: "https://movie-react-app-livid.vercel.app/",
+          githubLink: "https://github.com/Ashishsharmastudio/Blog-IN-NEXT.JS",
+          liveLink: "https://blog-in-next-js-xmwn.vercel.app/",
         },
 
         {
           title: "Portfolio-App",
           path: "/portfolio.png",
-          githubLink: "https://github.com/harshal0151/Portfolio-Harshal",
-          liveLink: "https://portfolio-harshal.vercel.app/",
+          githubLink: "/",
+          liveLink: "/",
         },
 
-        {
-          title: "Hershey-UI",
-          path: "/Hershey1.png",
-          githubLink: "https://github.com/harshal0151/Hershey-UI",
-          liveLink: "https://sudhanshusudan33.github.io/Hershey-UI/",
-        },
-
-        {
-          title: "nike-UI",
-          path: "/nike.png",
-          githubLink: "https://github.com/harshal0151/nike-Landing_page",
-          liveLink: "https://nike-shoes-landingpage.netlify.app/",
-        },
+        
       ],
     },
-    {
-      images: [
-        {
-          title: "EpicGame",
-          path: "/Home.png",
-          githubLink: "https://github.com/harshal0151/Epic_Games-Clone",
-          liveLink: "https://epic-games-clone-one.vercel.app/",
-        },
-
-        {
-          title: "Gym-UI",
-          path: "/Gym1.png",
-          githubLink: "https://github.com/harshal0151/The-November-Room",
-          liveLink: "https://harshal0151.github.io/The-November-Room/",
-        },
-      ],
-    },
+  
   ],
 };
 
@@ -144,7 +116,7 @@ const WorkSlider = () => {
                             {/* title 1  */}
                             <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150 border border-sky-200 py-1 px-3 rounded-lg bg-white text-black">
                               <Link
-                                href={image.liveLink}
+                                href={image.liveLink} target="_blank"
                                 className="hover:text-accent transition-all duration-300  "
                               >
                                 LIVE
