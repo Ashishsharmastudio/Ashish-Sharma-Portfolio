@@ -5,7 +5,7 @@ const workSlides = {
       images: [
         {
           title: "Emotion Detection Web App",
-          path: "/mood-detect.png",
+          path: "/mood-detection.png",
           githubLink: "https://github.com/Ashishsharmastudio/paint-my-mood",
           liveLink: "https://paint-my-mood-theta.vercel.app/",
         },
