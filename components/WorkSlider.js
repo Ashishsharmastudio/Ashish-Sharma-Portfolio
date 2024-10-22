@@ -4,10 +4,10 @@ const workSlides = {
     {
       images: [
         {
-          title: "Food-App",
-          path: "/foodApp.png",
-          githubLink: "https://github.com/harshal0151/FoodApp-React",
-          liveLink: "https://food-app-react-cyan.vercel.app/",
+          title: "Emotion Detection Web App",
+          path: "/mood-detect.png",
+          githubLink: "https://github.com/Ashishsharmastudio/paint-my-mood",
+          liveLink: "https://paint-my-mood-theta.vercel.app/",
         },
 
         {
