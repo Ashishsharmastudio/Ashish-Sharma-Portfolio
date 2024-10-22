@@ -12,7 +12,7 @@ const workSlides = {
 
         {
           title: "Tours APP",
-          path: "/Tour.png",
+          path: "/multi-auth.png",
           githubLink: "https://github.com/harshal0151/Tours_system",
           liveLink: "https://tours-system-h.vercel.app/home",
         },
