@@ -35,12 +35,24 @@ const workSlides = {
     {
       images: [
         {
-          title: "Movie App",
+          title: "Full Stack E-Commerce promotion App In Next.js",
           path: "/movie.png",
           githubLink: "https://github.com/Ashishsharmastudio/Blog-IN-NEXT.JS",
           liveLink: "https://blog-in-next-js-xmwn.vercel.app/",
         },
 
+        {
+          title: "Portfolio-App",
+          path: "/portfolio.png",
+          githubLink: "/",
+          liveLink: "/",
+        },
+        {
+          title: "Portfolio-App",
+          path: "/portfolio.png",
+          githubLink: "/",
+          liveLink: "/",
+        },
         {
           title: "Portfolio-App",
           path: "/portfolio.png",
