@@ -29,7 +29,7 @@ const aboutData = [
     title: "experience",
     info: [
       {
-        title: "Frontend Developer Intern - At CraveDigi Advisors",
+        title: "Full Stack Developer Intern - At Incentus",
         stage: "Oct 2023 - April 2024",
       },
     ],
@@ -38,8 +38,9 @@ const aboutData = [
     title: "Academic",
     info: [
       {
-        title: "Computer Science - SSVPS College of Engineering Dhule.",
-        stage: "2019 - 2023",
+        title:
+          "B.Tech in Computer Science and Engineering (CSE) - Abdul Kalam Technical University (AKTU)  - Lucknow",
+        stage: "2020 - 2024",
       },
     ],
   },
@@ -47,8 +48,9 @@ const aboutData = [
     title: "certification",
     info: [
       {
-        title: "MERN-stack Development",
-        stage: "",
+        title: "React.js",
+        stage:
+          "https://www.udemy.com/certificate/UC-b5d4dc46-154a-4fe6-88a3-6b10de111b98/",
       },
     ],
   },
@@ -93,9 +95,9 @@ const About = () => {
             exit="hidden"
             className="max-w-[500px] mx-auto xl:mx-0 mb-5 xl:mb-12 px-0.8 xl:px-0"
           >
-            I am a passionate Frontend Developer with a strong foundation in web
+            I am a passionate Full Stack Developer with a strong foundation in web
             app development using the MERN stack. I&apos;ve gained over 6 months
-            of experience as a Frontend Intern at CraveDigi Advisors Pvt. Ltd. I
+            of experience as a Full Stack developer Intern at Incentus Pvt. Ltd. I
             have honed my skills in building responsive and interactive web
             applications.
           </motion.p>
@@ -123,7 +125,7 @@ const About = () => {
                 <div className=" text-2xl xl:text-4xl font-extrabold text-accent mb-2">
                   {" "}
                   20
-                  <Countup start={0} end={23} duration={10} />
+                  <Countup start={0} end={24} duration={10} />
                 </div>
                 <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px]">
                   Year of graduation

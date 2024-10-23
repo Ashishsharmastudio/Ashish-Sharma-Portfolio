@@ -94,9 +94,12 @@ const WorkSlider = () => {
       spaceBetween={10}
       pagination={{
         clickable: true,
+        // el: ".work-slider-pagination",
+        // bulletClass: "swiper-pagination-bullet",
+        // bulletActiveClass: "swiper-pagination-bullet-active",
       }}
       modules={[Pagination]}
-      className="h-[280px] sm:h-[480px] "
+      className="h-[280px] sm:h-[480px]"
     >
       {workSlides.slides.map((slide, index) => {
         return (
@@ -128,7 +131,8 @@ const WorkSlider = () => {
                             {/* title 1  */}
                             <div className="translate-y-[500%] group-hover:translate-y-0 transition-all duration-300 delay-150 border border-sky-200 py-1 px-3 rounded-lg bg-white text-black">
                               <Link
-                                href={image.liveLink} target="_blank"
+                                href={image.liveLink}
+                                target="_blank"
                                 className="hover:text-accent transition-all duration-300  "
                               >
                                 LIVE

@@ -49,3 +49,10 @@
     @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
   }
 }
+/* .swiper {
+  padding-bottom: 4px !important;
+}
+
+.swiper-pagination {
+  bottom: 0 !important;
+} */
