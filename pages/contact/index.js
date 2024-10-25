@@ -90,33 +90,40 @@ const Contact = () => {
   }
 
   return (
-    <div className="h-full bg-primary/30">
+    <div className="h-full bg-primary/30 pt-[120px]">
       <div className="container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full">
-        <div className="flex flex-row gap-8 w-full max-w-[1400px]">
+        <div className="flex flex-col md:flex-row gap-8 w-full max-w-[1400px] ">
           {/* Contact Info Section */}
           <motion.div
             variants={fadeIn("left", 0.4)}
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="w-1/2 flex flex-col gap-6 bg-primary/30 p-8 rounded-lg"
+            className="w-full md:w-1/2 flex flex-col gap-6 bg-primary/30 p-8 rounded-lg"
           >
             <h3 className="h2 text-center text-4xl">
               Contact <span className="text-accent">Information</span>
             </h3>
 
             <div className="flex flex-col gap-6">
-              {socialLinks.map((link, index) => (
-                <div
-                  key={index}
-                  className="flex items-center gap-4 hover:text-accent transition-colors"
-                >
-                  {link.icon}
-                  <a href={link.href} target="_blank" rel="noopener noreferrer">
-                    {link.text}
-                  </a>
-                </div>
-              ))}
+              <div className="grid grid-cols-1 xs:grid-cols-2 gap-4">
+                {socialLinks.map((link, index) => (
+                  <div
+                    key={index}
+                    className="flex items-center gap-4 hover:text-accent transition-colors"
+                  >
+                    {link.icon}
+                    <a
+                      href={link.href}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-sm sm:text-base whitespace-nowrap"
+                    >
+                      {link.text}
+                    </a>
+                  </div>
+                ))}
+              </div>
 
               <div className="flex justify-center w-full">
                 <button
@@ -138,7 +145,7 @@ const Contact = () => {
             </div>
           </motion.div>
           {/* Form Section */}
-          <div className="flex flex-col w-1/2">
+          <div className="w-full md:w-1/2 flex flex-col">
             <motion.h2
               variants={fadeIn("up", 0.2)}
               initial="hidden"

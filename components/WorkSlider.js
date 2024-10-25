@@ -91,7 +91,7 @@ import Link from "next/link";
 const WorkSlider = () => {
   return (
     <Swiper
-      spaceBetween={30}
+      spaceBetween={20}
       pagination={{
         clickable: true,
         // el: ".work-slider-pagination",
@@ -99,12 +99,12 @@ const WorkSlider = () => {
         // bulletActiveClass: "swiper-pagination-bullet-active",
       }}
       modules={[Pagination]}
-      className="h-[280px] sm:h-[480px]"
+      className="h-[280px] sm:h-[480px] mx-2"
     >
       {workSlides.slides.map((slide, index) => {
         return (
           <SwiperSlide key={index} className="p-4">
-            <div className="grid grid-cols-2 grid-rows-2 gap-6 cursor-pointer">
+            <div className="grid grid-cols-2 grid-rows-2 gap-8 p-2 cursor-pointer">
               {slide.images.map((image, index) => {
                 return (
                   <div
