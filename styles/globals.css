@@ -5,9 +5,10 @@
 .translate-z-0 {
   transform: translateZ(0px);
 }
-.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet,
-.swiper-pagination-horizontal.swiper-pagination-bullets
-  .swiper-pagination-bullet {
+
+/* Swiper Customization */
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
   background-color: #f13024;
 }
 
@@ -20,39 +21,79 @@
 
 @layer base {
   body {
-    @apply bg-secondary overflow-hidden leading-relaxed;
+    @apply bg-secondary leading-relaxed;
+    overflow: overlay;
   }
+
   .page {
-    @apply w-full h-screen overflow-hidden;
+    @apply w-full h-screen;
+    overflow: overlay;
   }
+
   .h1 {
-    @apply text-[25px]  leading-tight md:text-[55px] md:leading-[1.2] mb-8 font-semibold;
+    @apply text-[25px] leading-tight font-semibold mb-8;
+    @apply md:text-[55px] md:leading-[1.2];
   }
+
   .h2 {
-    @apply text-[25px] leading-tight md:text-[52px] md:leading-[1.1] mb-4 font-semibold;
+    @apply text-[25px] leading-tight font-semibold mb-4;
+    @apply md:text-[52px] md:leading-[1.1];
   }
+
   p {
     @apply leading-[1.4] text-white/60 font-light;
   }
-  .btn,
+
+  .btn {
+    @apply h-[52px] transition-all duration-300;
+  }
+
   .input {
-    @apply h-[52px];
+    @apply w-full h-[52px] rounded-lg pl-6;
+    @apply bg-transparent outline-none;
+    @apply border border-white/20;
+    @apply focus:ring-1 focus:ring-accent;
+    @apply placeholder:text-white/30 placeholder:font-light;
   }
-  .input {
-    @apply w-full h-[50px] rounded-lg pl-6 capitalize;
-  }
-  .input,
+
   .textarea {
-    @apply bg-transparent outline-none focus:ring-1 focus:ring-accent border border-white/20 placeholder:text-white/30 placeholder:font-light;
+    @apply w-full h-[180px] p-6 rounded-lg;
+    @apply bg-transparent outline-none resize-none;
+    @apply border border-white/20;
+    @apply focus:ring-1 focus:ring-accent;
+    @apply placeholder:text-white/30 placeholder:font-light;
   }
-  .textarea {
-    @apply w-full h-[180px] p-6 capitalize rounded-lg resize-none;
-  }
-}
-/* .swiper {
-  padding-bottom: 4px !important;
 }
 
-.swiper-pagination {
-  bottom: 0 !important;
-} */
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* Media Queries */
+@media (max-width: 640px) {
+
+  .input,
+  .textarea {
+    @apply text-sm;
+  }
+}
+
+@media (min-width: 1024px) {
+  .page {
+    @apply overflow-hidden;
+  }
+}
