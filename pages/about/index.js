@@ -15,7 +15,7 @@ const aboutData = [
         icons: [
           <FaJs key="js" />,
           <FaReact key="react" />,
-          <SiTailwindcss key="tailwindcss" />,
+          <SiTailwindcss key="tailwindcss" />,  
           <SiRedux key="redux" />,
           <FaNode key="node" />,
           <SiExpress key="express" />,

@@ -59,11 +59,8 @@ const workSlides = {
           githubLink: "/",
           liveLink: "/",
         },
-
-        
       ],
     },
-  
   ],
 };
 

@@ -36,9 +36,7 @@ const Work = () => {
               created a custom Chrome extension to enhance browser functionality
               and user experience.
             </motion.p>
-            <div className="xl:mt-8 flex justify-center sm:justify-start w-full">
-            
-            </div>
+            <div className="xl:mt-8 flex justify-center sm:justify-start w-full"></div>
           </div>
 
           <motion.div

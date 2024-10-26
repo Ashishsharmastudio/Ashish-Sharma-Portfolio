@@ -82,7 +82,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="min-h-screen bg-primary/30 w-full overflow-x-hidden">
+    <div className="contact-page min-h-screen bg-primary/30 w-full overflow-y-auto">
       <div className="container mx-auto px-4 py-24 lg:py-32">
         <div className="flex flex-col lg:flex-row gap-8 max-w-[1400px] mx-auto">
           {/* Contact Info Section */}
