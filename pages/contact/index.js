@@ -118,7 +118,15 @@ const Contact = () => {
               </div>
 
               <div className="flex justify-center w-full">
-                <button className="flex items-center gap-4 btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 justify-center overflow-hidden hover:border-accent group">
+                <button
+                  className="flex items-center gap-4 btn rounded-full border border-white/50 max-w-[170px] px-8 transition-all duration-300 justify-center overflow-hidden hover:border-accent group"
+                  onClick={() =>
+                    window.open(
+                      "https://drive.google.com/file/d/1FEMCT7u9NAP0xVgNdaKw_VP57oNzLm-j/view?usp=sharing",
+                      "_blank"
+                    )
+                  }
+                >
                   <span className="group-hover:-translate-y-[120%] group-hover:opacity-0 transition-all duration-500">
                     Download CV
                   </span>
