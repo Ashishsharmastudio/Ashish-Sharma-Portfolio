@@ -24,7 +24,7 @@ const Home = () => {
             exit="hidden"
             className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight"
           >
-            Hello I'm <br /> Ashish Sharma <br />
+            Hello I&apos;m <br /> Ashish Sharma <br />
             <span className="text-accent">Full Stack Developer</span>
           </motion.h1>
 
@@ -38,10 +38,10 @@ const Home = () => {
           >
             🚀Transforming Ideas into Scalable, AI-Driven Web Solutions
             <br />
-            I craft high-performance web applications that don't just
+            I craft high-performance web applications that don&apos;t just
             function—they evolve.
             <br />
-            By blending Full Stack Development (MERN, Next.js, Node.js) with
+            By blending Full Stack Development (MERN, Next.js, Node.js,Langchain) <br/> with
             AI-driven automation, I help businesses streamline operations,
             enhance engagement, and scale effortlessly.
           </motion.p>
