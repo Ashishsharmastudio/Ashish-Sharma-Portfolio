@@ -24,7 +24,7 @@ const Home = () => {
             exit="hidden"
             className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight"
           >
-            Hello I&apos;m <br /> Ashish Sharma <br />
+            Hello I'm <br /> Ashish Sharma <br />
             <span className="text-accent">Full Stack Developer</span>
           </motion.h1>
 
