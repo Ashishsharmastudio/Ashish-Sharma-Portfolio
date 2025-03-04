@@ -4,6 +4,14 @@ const workSlides = {
     {
       images: [
         {
+          title:
+            "Rotor Wing Services – A premier aviation solutions website I developed to showcase their expertise, skilled network, and tailored support services",
+          path: "/rotor-wing-services-website.png",
+          githubLink:
+            "https://github.com/Ashishsharmastudio/Rotor-Wing-Services-website",
+          liveLink: "https://rotor-wing-services-website-henna.vercel.app/",
+        },
+        {
           title: "Emotion Detection Web App",
           path: "/mood-detection.png",
           githubLink: "https://github.com/Ashishsharmastudio/paint-my-mood",
@@ -39,13 +47,6 @@ const workSlides = {
           path: "/movie.png",
           githubLink: "https://github.com/Ashishsharmastudio/Blog-IN-NEXT.JS",
           liveLink: "https://blog-in-next-js-xmwn.vercel.app/",
-        },
-
-        {
-          title: "Portfolio-App",
-          path: "/portfolio.png",
-          githubLink: "/",
-          liveLink: "/",
         },
         {
           title: "Portfolio-App",
